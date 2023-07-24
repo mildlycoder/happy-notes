@@ -14,13 +14,13 @@ const Portfolio = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <span className="block mb-2 text-lg font-semibold text-primary">
+                <span className="block mb-2 text-lg font-regular text-primary ">
                 Our Courses
                 </span>
                 <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
                 Lead Guitar
                 </h2>
-                <p className="text-base text-body-color">
+                <p className="text-base text-gray-500 text-body-color">
                 Ignite your passion for lead guitar and equip yourself with the skills and techniques to play best guitar solos.
                 </p>
               </div>
@@ -33,9 +33,9 @@ const Portfolio = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject("all")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-regular transition md:py-3 lg:px-8 ${
                       showCard === "all"
-                        ? "activeClasses bg-primary text-white"
+                        ? "activeClasses bg-blue-650 text-white"
                         : "inactiveClasses"
                     }`}
                   >
@@ -45,9 +45,9 @@ const Portfolio = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject("branding")}
-                    className={`inline-block  rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block  rounded-lg py-2 px-5 text-center text-base font-regular transition md:py-3 lg:px-8 ${
                       showCard === "branding"
-                        ? "activeClasses bg-primary text-white"
+                        ? "activeClasses bg-blue-650 text-white"
                         : "inactiveClasses"
                     }`}
                   >
@@ -57,37 +57,13 @@ const Portfolio = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject("design")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-regular transition md:py-3 lg:px-8 ${
                       showCard === "design"
-                        ? "activeClasses bg-primary text-white"
+                        ? "activeClasses bg-blue-650 text-white"
                         : "inactiveClasses"
                     }`}
                   >
                     Design
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("marketing")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "marketing"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses"
-                    }`}
-                  >
-                    Marketing
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("development")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "development"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses"
-                    }`}
-                  >
-                    Development
                   </button>
                 </li>
               </ul>
@@ -173,13 +149,13 @@ const PortfolioCard = ({
             <img src={ImageHref} alt="portfolio" className="w-full" />
           </div>
           <div className="relative z-10 px-3 -mt-20 text-center bg-white rounded-lg shadow-lg mx-7 py-9">
-            <span className="block mb-2 text-sm font-semibold text-primary">
+            <span className="block mb-2 text-sm font-regular text-primary">
               {category}
             </span>
             <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
             <a
               href={buttonHref}
-              className="inline-block py-3 text-sm font-semibold transition border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white"
+              className="inline-block py-3 text-sm font-regular transition border rounded-md px-7 text-body-color hover:border-primary hover:bg-blue-650 hover:text-white"
             >
               {button}
             </a>
