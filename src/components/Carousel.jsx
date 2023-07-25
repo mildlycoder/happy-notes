@@ -25,7 +25,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
+         src="/logos/image 17.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -37,7 +37,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/lineicons.svg"
+         src="/logos/image 18.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -49,7 +49,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg"
+         src="/logos/image 21.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -61,7 +61,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
+         src="/logos/image 22.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -73,7 +73,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
+         src="/logos/image 23.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -85,7 +85,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
+         src="/logos/image 24.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -97,7 +97,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
+         src="/logos/image 25.png"
          alt="image"
          class="h-10 w-full"
        />
@@ -109,7 +109,7 @@ const Carousel = () => {
        class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
      >
        <img
-         src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
+         src="/logos/image 26.png"
          alt="image"
          class="h-10 w-full"
        />
