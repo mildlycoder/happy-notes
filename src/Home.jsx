@@ -16,7 +16,7 @@ const Home = () => {
 
       <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-white">No matter your age or prior musical experience, we believe that everyone can learn to play guitar by breaking down complex techniques into easy-to-understand concepts.</p>
 
-      <a href='https://app.happynotesmusic.co/' class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Explore » </a>
+      <a href='https://app.happynotesmusic.co/courses' class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Explore » </a>
     </div>
   </div>
 </section>
