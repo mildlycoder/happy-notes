@@ -3,28 +3,24 @@ import { Link } from 'react-router-dom'
 import Portfolio from './Categories'
 import StarFilled from './components/StarFilled'
 import Tick from './components/Tick'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import Carousel from './components/Carousel'
 
 const Home = () => {
   return (
     <>
-<section className='relative mt-[-7vh]'>
-<iframe className='z-[-10] w-full min-h-screen' src="https://www.youtube.com/embed/hCSZx6au-kY?controls=0&autoplay=1&mute=1&playsinline=1&playlist=hCSZx6au-kY&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <div className="z-10 flex flex-col items-center justify-center absolute top-52 left-[15%]">
-    <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-      <div class="flex flex-col w-full mb-12 text-center">
-        <h1 class="max-w-3xl text-2xl font-bold leading-none tracking-tighter text-white md:text-5xl lg:text-6xl lg:max-w-7xl">
-        Ignite your passion for guitar and embark on <br class="hidden lg:block"/>
-        a melodious journey of musical excellence
-        </h1>
+<section className="mt-[-7vh] bg-hero-pattern bg-cover bg-no-repeat min-h-screen flex flex-col items-center justify-center bg-fixed">
+  <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
+    <div class="flex flex-col w-full mb-12 text-center">
+      <h1 class="max-w-3xl text-2xl font-bold leading-none tracking-tighter text-white md:text-5xl lg:text-6xl lg:max-w-7xl">
+      Ignite your passion for guitar and embark on <br class="hidden lg:block"/>
+      a melodious journey of musical excellence
+      </h1>
 
         <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-white">No matter your age or prior musical experience, we believe that everyone can learn to play guitar by breaking down complex techniques into easy-to-understand concepts.</p>
 
         <a href='https://app.happynotesmusic.co/courses' class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Explore » </a>
       </div>
     </div>
-  </div>
 </section>
 
 
@@ -33,46 +29,7 @@ const Home = () => {
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4">
         <div class="flex flex-wrap items-center justify-center">
-          <a
-            href="javascript:void(0)"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-          >
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
-              alt="image"
-              class="h-10 w-full"
-            />
-          </a>
-          <a
-            href="javascript:void(0)"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-          >
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/lineicons.svg"
-              alt="image"
-              class="h-10 w-full"
-            />
-          </a>
-          <a
-            href="javascript:void(0)"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-          >
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg"
-              alt="image"
-              class="h-10 w-full"
-            />
-          </a>
-          <a
-            href="javascript:void(0)"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-          >
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
-              alt="image"
-              class="h-10 w-full"
-            />
-          </a>
+          <Carousel/>
         </div>
       </div>
     </div>
