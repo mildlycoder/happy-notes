@@ -9,15 +9,16 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const Carousel = () => {
   return (
     <Swiper
-    spaceBetween={50}
-    slidesPerView={3}
+    spaceBetween={20}
+    slidesPerView={6}
     className='w-full mySwiper'
     loop={true}
-    speed={3000}
+    speed={2000}
     autoplay={{
-        delay: 1000
+        delay: 0
     }}
     modules={[Autoplay, Pagination, Navigation]}
+    centeredSlides={true}
    >
      <SwiperSlide>
      <a
@@ -27,7 +28,7 @@ const Carousel = () => {
        <img
          src="/logos/image 17.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -39,7 +40,7 @@ const Carousel = () => {
        <img
          src="/logos/image 18.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -51,7 +52,7 @@ const Carousel = () => {
        <img
          src="/logos/image 21.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -63,7 +64,7 @@ const Carousel = () => {
        <img
          src="/logos/image 22.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -75,7 +76,7 @@ const Carousel = () => {
        <img
          src="/logos/image 23.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -87,7 +88,7 @@ const Carousel = () => {
        <img
          src="/logos/image 24.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -99,7 +100,7 @@ const Carousel = () => {
        <img
          src="/logos/image 25.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
@@ -111,7 +112,7 @@ const Carousel = () => {
        <img
          src="/logos/image 26.png"
          alt="image"
-         class="h-10 w-full"
+         class="h-auto w-full"
        />
      </a>
      </SwiperSlide>
