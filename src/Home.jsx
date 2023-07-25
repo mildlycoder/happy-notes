@@ -1,22 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Portfolio from './Categories'
 import StarFilled from './components/StarFilled'
 import Tick from './components/Tick'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const Home = () => {
   return (
     <>
-<section className="bg-hero-pattern bg-cover bg-no-repeat min-h-screen flex flex-col items-center justify-center bg-fixed">
-  <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-    <div class="flex flex-col w-full mb-12 text-center">
-      <h1 class="max-w-3xl text-2xl font-bold leading-none tracking-tighter text-white md:text-5xl lg:text-6xl lg:max-w-7xl">
-      Ignite your passion for guitar and embark on <br class="hidden lg:block"/>
-      a melodious journey of musical excellence
-      </h1>
+<section className='relative mt-[-7vh]'>
+<iframe className='z-[-10] w-full min-h-screen' src="https://www.youtube.com/embed/hCSZx6au-kY?controls=0&autoplay=1&mute=1&playsinline=1&playlist=hCSZx6au-kY&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div className="z-10 flex flex-col items-center justify-center absolute top-52 left-[15%]">
+    <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
+      <div class="flex flex-col w-full mb-12 text-center">
+        <h1 class="max-w-3xl text-2xl font-bold leading-none tracking-tighter text-white md:text-5xl lg:text-6xl lg:max-w-7xl">
+        Ignite your passion for guitar and embark on <br class="hidden lg:block"/>
+        a melodious journey of musical excellence
+        </h1>
 
-      <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-white">No matter your age or prior musical experience, we believe that everyone can learn to play guitar by breaking down complex techniques into easy-to-understand concepts.</p>
+        <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-white">No matter your age or prior musical experience, we believe that everyone can learn to play guitar by breaking down complex techniques into easy-to-understand concepts.</p>
 
-      <a href='https://app.happynotesmusic.co/courses' class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Explore » </a>
+        <a href='https://app.happynotesmusic.co/courses' class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Explore » </a>
+      </div>
     </div>
   </div>
 </section>
@@ -456,6 +462,19 @@ const Home = () => {
 
 <section className='bg-gray-100 pt-24 pb-24'>
     <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+        <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+          <span class="text-primary mb-2 block text-lg font-semibold text-blue-650">
+            Our Reviews
+          </span>
+          <h2
+            class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
+          >
+            Students 
+          </h2>
+          <p class="text-gray-500">
+          There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form. 
+          </p>
+        </div>
         <div class="grid grid-cols-1 gap-24 lg:grid-cols-2">
             <div class="flex flex-col w-full max-w-lg text-left lg:mx-auto">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/3oBSWsGKsBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -484,13 +503,15 @@ const Home = () => {
 <section class="text-gray-900 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center max-w-6xl">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-600">One-on-one classes
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-blue-650">One-on-one classes
         <br class="hidden lg:inline-block"/>
       </h1>
       <p class="mb-8 leading-relaxed text-gray-500">Are you an experienced guitar player looking to break through creative barriers? Our Personalized One-on-One guitar classes are designed specifically for individuals like you who need personalized attention and tailored feedback instruction to conquer your unique goals and challenges.
   </p>
       <div class="flex justify-center">
+        <Link to='https://calendly.com/happynotesmusic/one-on-one-private-lesson'>
         <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" control-id="ControlID-111">Explore</button>
+        </Link>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -505,11 +526,13 @@ const Home = () => {
       <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-600">Music consultations</h1>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-blue-650">Music consultations</h1>
       <p class="mb-8 leading-relaxed  text-gray-500">Confused what to do with your musical talents? Book a session with us and we will help you find your way. 
       .</p>
       <div class="flex justify-center">
+        <Link to='https://calendly.com/happynotesmusic/consultation-session'>
         <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" control-id="ControlID-111">Explore</button>
+        </Link>
       </div>
       
     </div>
@@ -519,7 +542,7 @@ const Home = () => {
 <section class="text-gray-900 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center max-w-6xl">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-600">Join our Discord
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-blue-650">Join our Discord
         <br class="hidden lg:inline-block"/>
       </h1>
       <p class="mb-8 leading-relaxed text-gray-500">Are you an experienced guitar player looking to break through creative barriers? Our Personalized One-on-One guitar classes are designed specifically for individuals like you who need personalized attention and tailored feedback instruction to conquer your unique goals and challenges.
