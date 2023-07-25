@@ -547,9 +547,11 @@ const Home = () => {
       </h1>
       <p class="mb-8 leading-relaxed text-gray-500">Are you an experienced guitar player looking to break through creative barriers? Our Personalized One-on-One guitar classes are designed specifically for individuals like you who need personalized attention and tailored feedback instruction to conquer your unique goals and challenges.
   </p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" control-id="ControlID-111">Join</button>
-      </div>
+      <Link to='https://discord.gg/EsqqmHmE'>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" control-id="ControlID-111">Join</button>
+        </div>
+      </Link>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
