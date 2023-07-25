@@ -458,7 +458,7 @@ const Home = () => {
     <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
         <div class="grid grid-cols-1 gap-24 lg:grid-cols-2">
             <div class="flex flex-col w-full max-w-lg text-left lg:mx-auto">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3oBSWsGKsBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="flex flex-col w-full max-w-lg text-left lg:mx-auto">
               <div class="block mt-2 space-y-6">
