@@ -17,7 +17,7 @@ const Header = () => {
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-none md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-none md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
                 <a href="#" class="block py-2 pl-3 pr-4 text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
             </li>
@@ -38,7 +38,7 @@ const Header = () => {
             <li>
                 <Link to='https://app.happynotesmusic.co/auth/'>
                 <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Login</a>
+                <button class="bg-blue-650 text-white block py-2 pl-3 p-4 rounded md:hover:bg-transparent md:border-2 border-blue-650 md:hover:text-blue-700 md:px-4 md:py-1 transition-all hover:scale-90">Login</button>
                 </li>
                 </Link>
             </li>
